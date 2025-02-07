@@ -19,9 +19,9 @@ const Footer = () => {
             />
             <div>
               <h3>1313 Paradise Drive</h3>
-              <h4>Calgary Alberta, T7D- 0G1</h4>
+              <h3>Calgary Alberta, T7D- 0G1</h3>
             </div>
-          </div>
+          
           <div className="phone">
             <h3>
               <FaPhone
@@ -40,6 +40,7 @@ const Footer = () => {
             />
             info@horizonfitnes.ca
           </h3>
+        </div>
         </div>
         <div className="right">
           

@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
-        {click ? (<FaTimes size={45}style={{ color: "black" }}/>) : (<FaBars size={45}style={{ color: 'black' }} />)}
+        {click ? (<FaTimes size={45}style={{ color: "#ffffff" }}/>) : (<FaBars size={45}style={{ color: '#ffffff' }} />)}
       </div>
     </div>
   );

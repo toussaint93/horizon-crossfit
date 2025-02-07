@@ -31,33 +31,42 @@
 }
 
 .footer h3 {
-
-font-size: 1.75rem;
+    font-size: 1.75rem;
     font-weight: bold;
+    padding: 1rem 0;
+    align-items: center;
 }
 
 .footer h4 {
-
     font-weight: 700;
     font-style: italic;
     font-size: 1.5rem;
+    padding: 1rem 0;
+    align-items: center;
 }
 .footer p {
     font-weight: bold;
     font-size: 1.9rem;
     color: #ffffff;
+    padding: 1rem 0;
 }
 
 .footer .location {
-display: flex;
-align-items: center;
-}
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0;
+ }
 .footer .phone {
     display: flex;
     align-items: center;
-    }
-    .footer .email {
-        display: flex;
-        align-items: center;
-        }
+    flex-direction: column;
+    padding: 1rem 0;
+    max-width: fit-content;
+}
+.footer .email {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
